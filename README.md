@@ -36,3 +36,8 @@ luego se debe compilar el BUILD y luego generar la imagen docker para subirla.
 ## Importante
 
 Para exponer la apps se utiliza un **ingress** por lo que debe habilitar dicho addons en el minikube.
+
+Para utilizar minikube con Virtualbox en vez del dirver por defecto (qemu)
+```bash
+minikube start --driver=virtualbox
+```
